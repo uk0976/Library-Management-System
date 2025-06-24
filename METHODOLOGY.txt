@@ -1,0 +1,216 @@
+def SelectBook(event=""):
+            value=str(List_box.get(List_box.curselection()))
+            x=value
+            if(x=="Head First Book"):
+                self.bookid_var.set("BKID2561")
+                self.booktitle_var.set("Head First Book")
+                self.author_var.set("Paul Berry")
+
+                d1=datetime.date.today()        
+                d2=datetime.timedelta(days=15)
+                d3=d1+d2
+                self.dateborrow_var.set(d1)
+                self.datedue_var.set(d3)
+                self.daysonbook_var.set(15)
+                self.finalprice_var.set(350)
+            
+            elif(x=="Learn Python The Hard Way"):
+                self.bookid_var.set("BKID2562")
+                self.booktitle_var.set("Learn Python The Hard Way")
+                self.author_var.set("Shaun Mendis")
+
+                d1=datetime.date.today()        
+                d2=datetime.timedelta(days=15)
+                d3=d1+d2
+                self.dateborrow_var.set(d1)
+                self.datedue_var.set(d3)
+                self.daysonbook_var.set(15)
+                self.finalprice_var.set(400)
+
+            elif(x=="Analysis Of Algorithms"):
+                self.bookid_var.set("BKID2562")
+                self.booktitle_var.set("Analysis Of Algorithms")
+                self.author_var.set("Geetanjali Shree")
+
+                d1=datetime.date.today()        
+                d2=datetime.timedelta(days=15)
+                d3=d1+d2
+                self.dateborrow_var.set(d1)
+                self.datedue_var.set(d3)
+                self.daysonbook_var.set(15)
+                self.finalprice_var.set(400)
+
+            elif(x=="Database Management System"):
+                self.bookid_var.set("BKID2563")
+                self.booktitle_var.set("Database Management System")
+                self.author_var.set("S. Hareesh")
+
+                d1=datetime.date.today()        
+                d2=datetime.timedelta(days=15)
+                d3=d1+d2
+                self.dateborrow_var.set(d1)
+                self.datedue_var.set(d3)
+                self.daysonbook_var.set(15)
+                self.finalprice_var.set(499)
+
+            elif(x=="Microprocessor"):
+                self.bookid_var.set("BKID2564")
+                self.booktitle_var.set("Microprocessor")
+                self.author_var.set("Barkha Dutt")
+
+                d1=datetime.date.today()        
+                d2=datetime.timedelta(days=15)
+                d3=d1+d2
+                self.dateborrow_var.set(d1)
+                self.datedue_var.set(d3)
+                self.daysonbook_var.set(15)
+                self.finalprice_var.set(599)
+
+            elif(x=="Object Oriented Programming"):
+                self.bookid_var.set("BKID2565")
+                self.booktitle_var.set("Object Oriented Programming")
+                self.author_var.set("Irwin Allan Sealy")
+
+                d1=datetime.date.today()        
+                d2=datetime.timedelta(days=15)
+                d3=d1+d2
+                self.dateborrow_var.set(d1)
+                self.datedue_var.set(d3)
+                self.daysonbook_var.set(15)
+                self.finalprice_var.set(600)
+
+            elif(x=="Data Structure"):
+                self.bookid_var.set("BKID2566")
+                self.booktitle_var.set("Data Structure")
+                self.author_var.set("Jhumpa Lahiri")
+
+                d1=datetime.date.today()        
+                d2=datetime.timedelta(days=15)
+                d3=d1+d2
+                self.dateborrow_var.set(d1)
+                self.datedue_var.set(d3)
+                self.daysonbook_var.set(15)
+                self.finalprice_var.set(499)
+
+            elif(x=="Computer Graphics"):
+                self.bookid_var.set("BKID2567")
+                self.booktitle_var.set("Computer Graphics")
+                self.author_var.set("Meghan Markle")
+
+                d1=datetime.date.today()        
+                d2=datetime.timedelta(days=15)
+                d3=d1+d2
+                self.dateborrow_var.set(d1)
+                self.datedue_var.set(d3)
+                self.daysonbook_var.set(15)
+                self.finalprice_var.set(499)
+
+            elif(x=="Engineering Mathematics 3"):
+                self.bookid_var.set("BKID2568")
+                self.booktitle_var.set("Engineering Mathematics 3")
+                self.author_var.set("Kalki Koechlin")
+
+                d1=datetime.date.today()        
+                d2=datetime.timedelta(days=15)
+                d3=d1+d2
+                self.dateborrow_var.set(d1)
+                self.datedue_var.set(d3)
+                self.daysonbook_var.set(15)
+                self.finalprice_var.set(650)
+
+            elif(x=="Engineering Mathmatics 4"):
+                self.bookid_var.set("BKID2569")
+                self.booktitle_var.set("Engineering Mathmatics 4")
+                self.author_var.set("Kavitha Iyer")
+
+                d1=datetime.date.today()        
+                d2=datetime.timedelta(days=15)
+                d3=d1+d2
+                self.dateborrow_var.set(d1)
+                self.datedue_var.set(d3)
+                self.daysonbook_var.set(15)
+                self.finalprice_var.set(500)
+
+            elif(x=="Operating System"):
+                self.bookid_var.set("BKID2570")
+                self.booktitle_var.set("Operating System")
+                self.author_var.set("Max Weber")
+
+                d1=datetime.date.today()        
+                d2=datetime.timedelta(days=15)
+                d3=d1+d2
+                self.dateborrow_var.set(d1)
+                self.datedue_var.set(d3)
+                self.daysonbook_var.set(15)
+                self.finalprice_var.set(699)
+
+            elif(x=="Advanced Algorithms"):
+                self.bookid_var.set("BKID2571")
+                self.booktitle_var.set("Advanced Algorithms")
+                self.author_var.set("Sangeet Paul Choudhary")
+
+                d1=datetime.date.today()        
+                d2=datetime.timedelta(days=15)
+                d3=d1+d2
+                self.dateborrow_var.set(d1)
+                self.datedue_var.set(d3)
+                self.daysonbook_var.set(15)
+                self.finalprice_var.set(399)
+
+            elif(x=="Javascript"):
+                self.bookid_var.set("BKID2572")
+                self.booktitle_var.set("avascript")
+                self.author_var.set("V.S. Naipaul")
+
+                d1=datetime.date.today()        
+                d2=datetime.timedelta(days=15)
+                d3=d1+d2
+                self.dateborrow_var.set(d1)
+                self.datedue_var.set(d3)
+                self.daysonbook_var.set(15)
+                self.finalprice_var.set(499)
+
+            elif(x=="Programming In C"):
+                self.bookid_var.set("BKID2573")
+                self.booktitle_var.set("Programming In C")
+                self.author_var.set("Mary Roach")
+
+                d1=datetime.date.today()        
+                d2=datetime.timedelta(days=15)
+                d3=d1+d2
+                self.dateborrow_var.set(d1)
+                self.datedue_var.set(d3)
+                self.daysonbook_var.set(15)
+                self.finalprice_var.set(999)
+
+            elif(x=="Fundamentals Of AI"):
+                self.bookid_var.set("BKID2574")
+                self.booktitle_var.set("Fundamentals Of AI")
+                self.author_var.set("Ruchir Sharma")
+
+                d1=datetime.date.today()        
+                d2=datetime.timedelta(days=15)
+                d3=d1+d2
+                self.dateborrow_var.set(d1)
+                self.datedue_var.set(d3)
+                self.daysonbook_var.set(15)
+                self.finalprice_var.set(499)
+
+            elif(x=="Deep Learning"):
+                self.bookid_var.set("BKID2575")
+                self.booktitle_var.set("Deep Learning")
+                self.author_var.set("Hunter Biden")
+
+                d1=datetime.date.today()        
+                d2=datetime.timedelta(days=15)
+                d3=d1+d2
+                self.dateborrow_var.set(d1)
+                self.datedue_var.set(d3)
+                self.daysonbook_var.set(15)
+                self.finalprice_var.set(599)
+
+
+        List_box=Listbox(DataFrameRight,font=("Times new roman",12,"bold"),width=25,height=16)
+        List_box.bind("<<ListboxSelect>>",SelectBook)
+        List_box.grid(row=0,column=0,padx=4)
+        listScrollBar.config(command=List_box.yview)
